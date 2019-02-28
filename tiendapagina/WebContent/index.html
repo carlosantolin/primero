@@ -5,6 +5,14 @@
 <title>Insert title here</title>
 </head>
 
+<script type="text/javascript">
+
+function mostrarinicio(){
+	alert("holii");
+}
+
+</script>
+
 <style type="text/css">
 
 .cabecera , .footer{
@@ -20,6 +28,11 @@
 	float: left;	
 	width: 80%;
 }	
+
+.footer{
+	float: left;
+	width: 100%;
+}
 </style><body>
 
 <div class="cabecera">
@@ -29,16 +42,16 @@
 <div class="cuerpo">
 	<div class="cuerpoizquierda">
 		<ul>
-			<li><a href="index.html">inicio</a></li>
-			<li><a href="novedades.html">reservas</a></li>
-			<li><a href="contacto.html">contacto</a></li>
-			<li><a href="ayuda.html">ayuda</a></li>
+			<li><a onclick="mostrarinicio()" href="#">inicio</a></li>
+			<li><a href="#">reservas</a></li>
+			<li><a href="#">contacto</a></li>
+			<li><a href="#">ayuda</a></li>
 		</ul>
 	</div>	
 	<div class="cuerpoderecha">
-		<h1>CABECERA</h1>
-		<p>contenido</p>
-		<p>kokasdasssadsadasd dfkjasd fldsjf dfds lkjfdkfj dlfjdaskfjdsf lñkjf kewrjele rerejlrjelr ee
+		<h1 id="cabecera">CABECERA</h1>
+		<p id="parrafo1">contenido</p>
+		<p id="parrafo2">kokasdasssadsadasd dfkjasd fldsjf dfds lkjfdkfj dlfjdaskfjdsf lñkjf kewrjele rerejlrjelr ee
 		r elrj elrkjewrljwerlkqjewrlwejrewr
 		wer er jereklr jel rjewlrj
 		
