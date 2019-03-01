@@ -8,7 +8,31 @@
 <script type="text/javascript">
 
 function mostrarinicio(){
-	alert("holii");
+	
+	document.getElementById("cabecera").innerHTML = "holacaracola";
+	document.getElementById("parrafo1").innerHTML = "Esta es una frase superchula";
+	document.getElementById("parrafo2").innerHTML = "Pero esta es mil veces mejor";
+}
+
+function mostrarreservas(){
+	
+	document.getElementById("cabecera").innerHTML = "RESERVAS";
+	document.getElementById("parrafo1").innerHTML = "Deberia haber contenido";
+	document.getElementById("parrafo2").innerHTML = "Pero... ups";
+}
+
+function mostrarayuda(){
+	
+	document.getElementById("cabecera").innerHTML = "AYUDA";
+	document.getElementById("parrafo1").innerHTML = "Socorro estoy atrapado!!!!1!!11";
+	document.getElementById("parrafo2").innerHTML = "NECESITO TU AYUDA";
+}
+
+function mostrarcontacto(){
+	
+	document.getElementById("cabecera").innerHTML = "CONTACTO";
+	document.getElementById("parrafo1").innerHTML = "Esta no es una pagina de contactos";
+	document.getElementById("parrafo2").innerHTML = "Zalamero";
 }
 
 </script>
@@ -43,9 +67,9 @@ function mostrarinicio(){
 	<div class="cuerpoizquierda">
 		<ul>
 			<li><a onclick="mostrarinicio()" href="#">inicio</a></li>
-			<li><a href="#">reservas</a></li>
-			<li><a href="#">contacto</a></li>
-			<li><a href="#">ayuda</a></li>
+			<li><a onclick="mostrarreservas()" href="#">reservas</a></li>
+			<li><a onclick="mostrarcontacto()" href="#">contacto</a></li>
+			<li><a onclick="mostrarayuda()" href="#">ayuda</a></li>
 		</ul>
 	</div>	
 	<div class="cuerpoderecha">
